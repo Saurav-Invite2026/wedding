@@ -923,8 +923,8 @@ button:hover,
 }
 
     .ganesh{
-    top:150px;
-    width: 75px;
+    top:100px;
+    width: 180px;
 }
         .content{
     max-width:100%;
@@ -932,25 +932,29 @@ button:hover,
     padding:15px;
 }
         .content h3 {
-            font-size: 13px;
+            font-size: 25px;
             letter-spacing: 3px;
             margin: 170px 0 15px;
+            text-align:center
         }
 
         .content h1 {
             font-size: 44px;
-            line-height: 1.15;
+            text-align:center
+        
             margin: 20px 0 15px;
         }
 
         .content p {
             font-size: 18px;
             margin: 0;
+            ext-align:center
         }
 
         .content p {
             font-size: 18px;
             margin: 0;
+            ext-align:center
         }
 
         .events {
@@ -1007,3 +1011,17 @@ button:hover,
         }
 
     }
+    .content h1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:58px;
+    line-height:1.05;
+}
+
+.content h1 span{
+    display:block;
+    font-size:58px;
+    line-height:1;
+    margin:8px 0;
+}
