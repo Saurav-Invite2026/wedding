@@ -949,11 +949,11 @@ button:hover,
     letter-spacing:4px;
     margin:0 auto 20px;
 }
-        }
+        
 
         .content h1 {
             font-size: 44px;
-            text-align:center
+            text-align:center;
         
             margin: 20px 0 15px;
         }
@@ -961,13 +961,13 @@ button:hover,
         .content p {
             font-size: 18px;
             margin: 0;
-            ext-align:center
+           text-align:center;
         }
 
         .content p {
             font-size: 18px;
             margin: 0;
-            ext-align:center
+            text-align:center;
         }
 
         .events {
@@ -1023,18 +1023,15 @@ button:hover,
             width: 180px;
         }
 
-    }
+    
     .content h1{
     display:flex;
     flex-direction:column;
     align-items:center;
     font-size:58px;
     line-height:1.05;
-}
 
-.content h1 span{
-    display:block;
-    font-size:58px;
-    line-height:1;
-    margin:8px 0;
+    font-family:'Cinzel', serif;
+font-weight:700;
+letter-spacing:2px;
 }
